@@ -170,7 +170,7 @@
 
     // Função para excluir chave
     function deleteKey(key) {
-        fetch('http://localhost:5000/delete_key', {
+        fetch('https://loginadmin-alpha.vercel.app/delete_key', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ key: key })

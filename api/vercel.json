@@ -2,7 +2,7 @@
   "version": 2,
   "functions": {
     "index.py": {
-      "runtime": "@vercel/python"
+      "runtime": "vercel-python@0.4.0"
     }
   },
   "routes": [
